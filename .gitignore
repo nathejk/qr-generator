@@ -1,0 +1,6 @@
+bin/
+pkg/
+src/golang.org
+src/gopkg.in
+src/github.com
+zoneinfo.zip
