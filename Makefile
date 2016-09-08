@@ -4,6 +4,7 @@ WORKDIR=/go/src/$(NAME)
 DOCKER=docker run --rm -ti -v `pwd`:/go -w $(WORKDIR) --env CGO_ENABLED=0 golang:1.6
 
 compile: dependencies
+	$(DOCKER) go fmt .
 	$(DOCKER) go build -a -installsuffix cgo .
 
 build: compile
