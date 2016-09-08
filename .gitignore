@@ -3,4 +3,5 @@ pkg/
 src/golang.org
 src/gopkg.in
 src/github.com
+src/qr-generator/qr-generator
 zoneinfo.zip
